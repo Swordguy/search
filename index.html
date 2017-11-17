@@ -35,7 +35,7 @@
 		var search=document.getElementById("search");
 		search.onclick=function(){			
 			var number=document.getElementById("staffNumber").value;
-			request.open("GET","http://localhost:8080/1/serverjson.php?number="+number,true);
+			request.open("GET","https://github.com/Swordguy/search/blob/master/serverjson.php?number="+number,true);
 			request.send();
 			request.onreadystatechange=function(){
 				if(request.readyState==4){
